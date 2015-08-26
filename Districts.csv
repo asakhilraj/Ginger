@@ -1,0 +1,671 @@
+1,Nicobar,NI
+1,North and Middle Andaman,NA
+1,South Andaman,SA
+2,Anantapur,AN
+2,Chittoor,CH
+2,Cuddapah,CU
+2,East Godavari,EG
+2,Guntur,GU
+2,Krishna,KR
+2,Kurnool,KU
+2,Nellore,NE
+2,Prakasam,PR
+2,Srikakulam,SR
+2,Visakhapatnam,VS
+2,Vizianagaram,VZ
+2,West Godavari,WG
+3,Anjaw,AJ
+3,Changlang,CH
+3,Dibang Valley,UD
+3,East Kameng,EK
+3,East Siang,ES
+3,Kurung Kumey,KK
+3,Lohit,EL
+3,Longding,LD
+3,Lower Dibang Valley,DV
+3,Lower Subansiri,LB
+3,Papum Pare,PA
+3,Tawang,TA
+3,Tirap,TI
+3,Upper Siang,US
+3,Upper Subansiri,UB
+3,West Kameng,WK
+3,West Siang,WS
+4,Baksa,BK
+4,Barpeta,BA
+4,Bongaigaon,BO
+4,Cachar,CA
+4,Chirang,CH
+4,Darrang,DA
+4,Dhemaji,DM
+4,Dhubri,DB
+4,Dibrugarh,DI
+4,Dima Hasao,NC
+4,Goalpara,GP
+4,Golaghat,GG
+4,Hailakandi,HA
+4,Jorhat,JO
+4,Kamrup Metropolitan,KM
+4,Kamrup,KR
+4,Karbi Anglong,KA
+4,Karimganj,KR
+4,Kokrajhar,KK
+4,Lakhimpur,LA
+4,Morigaon,MA
+4,Nagaon,NG
+4,Nalbari,NL
+4,Sivasagar,SI
+4,Sonitpur,SO
+4,Tinsukia,TI
+4,Udalguri,UD
+5,Araria,AR
+5,Arwal,AR
+5,Aurangabad,AU
+5,Banka,BA
+5,Begusarai,BE
+5,Bhagalpur,BG
+5,Bhojpur,BJ
+5,Buxar,BU
+5,Darbhanga,DA
+5,East Champaran (Motihari),EC
+5,Gaya,GA
+5,Gopalganj,GO
+5,Jamui,JA
+5,Jehanabad,JE
+5,Kaimur (Bhabua),KM
+5,Katihar,KT
+5,Khagaria,KH
+5,Kishanganj,KI
+5,Lakhisarai,LA
+5,Madhepura,MP
+5,Madhubani,MB
+5,Munger (Monghyr),MG
+5,Muzaffarpur,MZ
+5,Nalanda,NL
+5,Nawada,NW
+5,Patna,PA
+5,Purnia (Purnea),PU
+5,Rohtas,RO
+5,Saharsa,SH
+5,Samastipur,SM
+5,Saran,SR
+5,Sheikhpura,SP
+5,Sheohar,SO
+5,Sitamarhi,ST
+5,Siwan,SW
+5,Supaul,SU
+5,Vaishali,VA
+5,West Champaran,WC
+6,Chandigarh,CH
+7,Balod,Balod
+7,Baloda Bazar,Baloda Bazar
+7,Balrampur,Balrampur
+7,Bastar,BA
+7,Bemetara,Bemetara
+7,Bijapur,BJ
+7,Bilaspur,BI
+7,Dantewada (South Bastar),DA
+7,Dhamtari,DH
+7,Durg,DU
+7,Gariaband,Gariaband
+7,Janjgir-Champa,JC
+7,Jashpur,JA
+7,Kabirdham (Kawardha),KW
+7,Kanker (North Bastar),KK
+7,Kondagaon,Kondagaon
+7,Korba,KB
+7,Korea (Koriya),KJ
+7,Mahasamund,MA
+7,Mungeli,Mungeli
+7,Narayanpur,NR
+7,Raigarh,RG
+7,Raipur,RP
+7,Rajnandgaon,RN
+7,Sukma,SK
+7,Surajpur,SJ
+7,Surguja,SJ
+8,Dadra & Nagar Haveli,DN
+9,Daman,DA
+9,Diu,DI
+10,Central Delhi,CD
+10,East Delhi,ED
+10,New Delhi,ND
+10,North Delhi,NO
+10,North East Delhi,NE
+10,North West Delhi,NW
+10,South Delhi,SD
+10,South West Delhi,SW
+10,West Delhi,WD
+11,North Goa,NG
+11,South Goa,SG
+12,Ahmedabad,AH
+12,Amreli,AM
+12,Anand,AN
+12,Aravalli,AR
+12,Banaskantha (Palanpur),BK
+12,Bharuch,BR
+12,Bhavnagar,BV
+12,Botad,Botad
+12,Chhota Udepur,Chhota Udaipur
+12,Dahod,DA
+12,Dangs (Ahwa),DG
+12,Devbhoomi Dwarka,Devbhoomi Dwarka
+12,Gandhinagar,GA
+12,Gir Somnath,Gir Somnath
+12,Jamnagar,JA
+12,Junagadh,JU
+12,Kachchh,KH
+12,Kheda (Nadiad),KA
+12,Mahisagar,MH
+12,Mehsana,MA
+12,Morbi,Morbi
+12,Narmada (Rajpipla),NR
+12,Navsari,NV
+12,Panchmahal (Godhra),PM
+12,Patan,PA
+12,Porbandar,PO
+12,Rajkot,RA
+12,Sabarkantha (Himmatnagar),SK
+12,Surat,ST
+12,Surendranagar,SN
+12,Tapi (Vyara),TA
+12,Vadodara,VD
+12,Valsad,VL
+13,Ambala,AM
+13,Bhiwani,BH
+13,Faridabad,FR
+13,Fatehabad,FT
+13,Gurgaon,GU
+13,Hisar,HI
+13,Jhajjar,JH
+13,Jind,JI
+13,Kaithal,KT
+13,Karnal,KR
+13,Kurukshetra,KU
+13,Mahendragarh,MA
+13,Mewat,MW
+13,Palwal,PW
+13,Panchkula,PK
+13,Panipat,PP
+13,Rewari,RE
+13,Rohtak,RO
+13,Sirsa,SI
+13,Sonipat,SNP
+13,Yamunanagar,YN
+14,Bilaspur,BI
+14,Chamba,CH
+14,Hamirpur,HA
+14,Kangra,KA
+14,Kinnaur,KI
+14,Kullu,KU
+14,Lahaul & Spiti,LS
+14,Mandi,MA
+14,Shimla,SH
+14,Sirmaur (Sirmour),SI
+14,Solan,SO
+14,Una,UNA
+15,Anantnag,AN
+15,Bandipora,BPR
+15,Baramulla,BR
+15,Budgam,BD
+15,Doda,DO
+15,Ganderbal,GB
+15,Jammu,JA
+15,Kargil,KR
+15,Kathua,KT
+15,Kishtwar,KW
+15,Kulgam,KG
+15,Kupwara,KU
+15,Leh,LE
+15,Poonch,PO
+15,Pulwama,PU
+15,Rajouri,RA
+15,Ramban,RB
+15,Reasi,RS
+15,Samba,SB
+15,Shopian,SH
+15,Srinagar,SR
+15,Udhampur,UD
+16,Bokaro,BO
+16,Chatra,CH
+16,Deoghar,DE
+16,Dhanbad,DH
+16,Dumka,DU
+16,East Singhbhum,ES
+16,Garhwa,GA
+16,Giridih,GI
+16,Godda,GO
+16,Gumla,GU
+16,Hazaribag,HA
+16,Jamtara,JA
+16,Khunti,KH
+16,Koderma,KO
+16,Latehar,LA
+16,Lohardaga,LO
+16,Pakur,PK
+16,Palamu,PL
+16,Ramgarh,RM
+16,Ranchi,RA
+16,Sahibganj,SA
+16,Seraikela-Kharsawan,SK
+16,Simdega,SI
+16,West Singhbhum,WS
+17,Bagalkot,BK
+17,Bangalore Rural,BL
+17,Bangalore Urban,BG
+17,Belgaum,BR
+17,Bellary,BN
+17,Bidar,BD
+17,Bijapur,CJ
+17,Chamarajanagar,CK
+17,Chickmagalur,CK
+17,Chikballapur,CT
+17,Chitradurga,DK
+17,Dakshina Kannada,DA
+17,Davangere,DH
+17,Dharwad,GA
+17,Gadag,HS
+17,Gulbarga,HV
+17,Hassan,GU
+17,Haveri,KD
+17,Kodagu,KL
+17,Kolar,KP
+17,Koppal,MA
+17,Mandya,MY
+17,Mysore,RA
+17,Raichur,RM
+17,Ramnagara,SH
+17,Shimoga,TU
+17,Tumkur,UD
+17,Udupi,UK
+17,Uttara Kannada (Karwar),BJ
+17,Yadgir,YG
+18,Alappuzha,AL
+18,Ernakulam,ER
+18,Idukki,ID
+18,Kannur,KN
+18,Kasaragod,KS
+18,Kollam,KL
+18,Kottayam,KT
+18,Kozhikode,KZ
+18,Malappuram,MA
+18,Palakkad,PL
+18,Pathanamthitta,PT
+18,Thiruvananthapuram,TS
+18,Thrissur,TV
+18,Wayanad,WA
+19,Lakshadweep,LD
+20,Alirajpur,AL
+20,Anuppur,AP
+20,Ashoknagar,AS
+20,Balaghat,BL
+20,Barwani,BR
+20,Betul,BE
+20,Bhind,BD
+20,Bhopal,BP
+20,Burhanpur,BU
+20,Chhatarpur,CT
+20,Chhindwara,CN
+20,Damoh,DM
+20,Datia,DT
+20,Dewas,DE
+20,Dhar,DH
+20,Dindori,DI
+20,Guna,GU
+20,Gwalior,GW
+20,Harda,HA
+20,Hoshangabad,HO
+20,Indore,IN
+20,Jabalpur,JA
+20,Jhabua,JH
+20,Katni,KA
+20,Khandwa,EN
+20,Khargone,WN
+20,Mandla,ML
+20,Mandsaur,MS
+20,Morena,MO
+20,Narsinghpur,NA
+20,Neemuch,NE
+20,Panna,PA
+20,Raisen,RS
+20,Rajgarh,RG
+20,Ratlam,RL
+20,Rewa,RE
+20,Sagar,SG
+20,Satna,ST
+20,Sehore,SR
+20,Seoni,SO
+20,Shahdol,SH
+20,Shajapur,SJ
+20,Sheopur,SP
+20,Shivpuri,SV
+20,Sidhi,SI
+20,Singrauli,SN
+20,Tikamgarh,TI
+20,Ujjain,UJ
+20,Umaria,UM
+20,Vidisha,VI
+21,Ahmednagar,AH
+21,Akola,AK
+21,Amravati,AM
+21,Aurangabad,AU
+21,Beed,BI
+21,Bhandara,BH
+21,Buldhana,BU
+21,Chandrapur,CH
+21,Dhule,DH
+21,Gadchiroli,GA
+21,Gondia,GO
+21,Hingoli,HI
+21,Jalgaon,JG
+21,Jalna,JN
+21,Kolhapur,KO
+21,Latur,LA
+21,Mumbai City,MC
+21,Mumbai Suburban,MU
+21,Nagpur,ND
+21,Nanded,NB
+21,Nandurbar,NG
+21,Nashik,NS
+21,Osmanabad,OS
+21,Parbhani,Palghar
+21,Pune,PA
+21,Raigad,PU
+21,Ratnagiri,RG
+21,Sangli,RT
+21,Satara,SN
+21,Sindhudurg,ST
+21,Solapur,SI
+21,Thane,SO
+21,Wardha,TH
+21,Washim,WR
+21,Yavatmal,WS
+22,Bishnupur,YA
+22,Chandel,CD
+22,Churachandpur,CC
+22,Imphal East,EI
+22,Imphal West,WI
+22,Senapati,SE
+22,Tamenglong,TA
+22,Thoubal,TH
+22,Ukhrul,UK
+23,East Garo Hills,EG
+23,East Jaintia Hills,East Jaintia Hills
+23,East Khasi Hills,EK
+23,North Garo Hills,North Garo Hills
+23,Ri Bhoi,RB
+23,South Garo Hills,SG
+23,South West Garo Hills,South West Garo Hills
+23,South West Khasi Hills,South West Khasi Hills
+23,West Garo Hills,WG
+23,West Jaintia Hills,WG
+23,West Khasi Hills,WK
+24,Aizawl,AI
+24,Champhai,CH
+24,Kolasib,KO
+24,Lawngtlai,LA
+24,Lunglei,LU
+24,Mamit,MA
+24,Saiha,SA
+24,Serchhip,SE
+25,Dimapur,DI
+25,Kiphire,KI
+25,Kohima,KO
+25,Longleng,LO
+25,Mokokchung,MK
+25,Mon,MN
+25,Peren,PE
+25,Phek,PH
+25,Tuensang,TU
+25,Wokha,WO
+25,Zunheboto,ZU
+26,Angul,AN
+26,Balangir,BL
+26,Balasore,BW
+26,Bargarh,BR
+26,Bhadrak,BH
+26,Boudh,BD
+26,Cuttack,CU
+26,Deogarh,DE
+26,Dhenkanal,DH
+26,Gajapati,GN
+26,Ganjam,GP
+26,Jagatsinghapur,JH
+26,Jajpur,JP
+26,Jharsuguda,JS
+26,Kalahandi,KL
+26,Kandhamal,KN
+26,Kendrapara,KP
+26,Kendujhar (Keonjhar),KJ
+26,Khordha,KH
+26,Koraput,KO
+26,Malkangiri,ML
+26,Mayurbhanj,MY
+26,Nabarangpur,NB
+26,Nayagarh,NY
+26,Nuapada,NU
+26,Puri,PU
+26,Rayagada,RA
+26,Sambalpur,SA
+26,Sonepur,SO
+26,Sundargarh,SU
+27,Karaikal,KA
+27,Mahe,MA
+27,Pondicherry,PO
+27,Yanam,YA
+28,Amritsar,AM
+28,Barnala,BNL
+28,Bathinda,BA
+28,Faridkot,FR
+28,Fatehgarh Sahib,FT
+28,Fazilka,FA
+28,Ferozepur,FI
+28,Gurdaspur,GU
+28,Hoshiarpur,HO
+28,Jalandhar,JA
+28,Kapurthala,KA
+28,Ludhiana,LU
+28,Mansa,MA
+28,Moga,MO
+28,Muktsar,MU
+28,Nawanshahr,PB
+28,Pathankot,PA
+28,Patiala,PA
+28,Rupnagar,RU
+28,Sangrur,SA
+28,SAS Nagar (Mohali),SAS
+28,Tarn Taran,TT
+29,Ajmer,AJ
+29,Alwar,AL
+29,Banswara,BN
+29,Baran,BR
+29,Barmer,BM
+29,Bharatpur,BP
+29,Bhilwara,BW
+29,Bikaner,BI
+29,Bundi,BU
+29,Chittorgarh,CT
+29,Churu,CR
+29,Dausa,DA
+29,Dholpur,DH
+29,Dungarpur,DU
+29,Hanumangarh,HA
+29,Jaipur,JP
+29,Jaisalmer,JS
+29,Jalore,JL
+29,Jhalawar,JW
+29,Jhunjhunu,JJ
+29,Jodhpur,JO
+29,Karauli,KA
+29,Kota,KO
+29,Nagaur,NA
+29,Pali,PA
+29,Pratapgarh,PG
+29,Rajsamand,RA
+29,Sawai Madhopur,SM
+29,Sikar,SK
+29,Sirohi,SR
+29,Sri Ganganagar,GA
+29,Tonk,TO
+29,Udaipur,UD
+30,East Sikkim,ES
+30,North Sikkim,NS
+30,South Sikkim,SS
+30,West Sikkim,WS
+31,Ariyalur,AY
+31,Chennai,CH
+31,Coimbatore,CO
+31,Cuddalore,CU
+31,Dharmapuri,DH
+31,Dindigul,DI
+31,Erode,ER
+31,Kanchipuram,KC
+31,Kanyakumari,KK
+31,Karur,KA
+31,Krishnagiri,KR
+31,Madurai,MA
+31,Nagapattinam,NG
+31,Namakkal,NI
+31,Nilgiris,NM
+31,Perambalur,PE
+31,Pudukkottai,PU
+31,Ramanathapuram,RA
+31,Salem,SA
+31,Sivaganga,SI
+31,Thanjavur,TP
+31,Theni,TC
+31,Thoothukudi (Tuticorin),TH
+31,Tiruchirappalli,TI
+31,Tirunelveli,TJ
+31,Tiruppur,TK
+31,Tiruvallur,TL
+31,Tiruvannamalai,TR
+31,Tiruvarur,TV
+31,Vellore,VE
+31,Viluppuram,VL
+31,Virudhunagar,VR
+32,Adilabad,AD
+32,Hyderabad,HY
+32,Karimnagar,KA
+32,Khammam,KH
+32,Mahabubnagar,MA
+32,Medak,ME
+32,Nalgonda,NA
+32,Nizamabad,NI
+32,Rangareddy,RA
+32,Warangal,WA
+33,Dhalai,DH
+33,Gomati,GM
+33,Khowai,KH
+33,North Tripura,NT
+33,Sepahijala,SP
+33,South Tripura,ST
+33,Unakoti,UK
+33,West Tripura,WT
+34,Agra,AG
+34,Aligarh,AL
+34,Allahabad,AH
+34,Ambedkar Nagar,AN
+34,Auraiya,AU
+34,Azamgarh,AZ
+34,Baghpat,BG
+34,Bahraich,BH
+34,Ballia,BL
+34,Balrampur,BP
+34,Banda,BN
+34,Barabanki,BB
+34,Bareilly,BR
+34,Basti,BS
+34,Bhim Nagar,SM
+34,Bijnor,BI
+34,Budaun,BD
+34,Bulandshahr,BU
+34,Chandauli,CD
+34,Chatrapati Sahuji Mahraj Nagar,CS
+34,Chitrakoot,CT
+34,Deoria,DE
+34,Etah,ET
+34,Etawah,EW
+34,Faizabad,FZ
+34,Farrukhabad,FR
+34,Fatehpur,FT
+34,Firozabad,FI
+34,Gautam Buddha Nagar,GB
+34,Ghaziabad,GZ
+34,Ghazipur,GP
+34,Gonda,GN
+34,Gorakhpur,GR
+34,Hamirpur,HM
+34,Hardoi,HR
+34,Hathras,HT
+34,Jalaun,JL
+34,Jaunpur,JU
+34,Jhansi,JH
+34,Jyotiba Phule Nagar (J.P. Nagar),JP
+34,Kannauj,KJ
+34,Kanpur Dehat,KD
+34,Kanpur Nagar,KN
+34,Kanshiram Nagar (Kasganj),KR
+34,Kaushambi,KS
+34,Kushinagar (Padrauna),KU
+34,Lakhimpur - Kheri,LK
+34,Lalitpur,LA
+34,Lucknow,LU
+34,Maharajganj,MG
+34,Mahoba,MH
+34,Mainpuri,MP
+34,Mathura,MT
+34,Mau,MB
+34,Meerut,ME
+34,Mirzapur,MI
+34,Moradabad,MO
+34,Muzaffarnagar,MU
+34,Panchsheel Nagar,PN
+34,Pilibhit,PI
+34,Prabuddh Nagar,SH
+34,Pratapgarh,PR
+34,RaeBareli,RB
+34,Rampur,RA
+34,Saharanpur,SA
+34,Sant Kabir Nagar,SK
+34,Sant Ravidas Nagar,SR
+34,Shahjahanpur,SJ
+34,Shravasti,SV
+34,Siddharth Nagar,SN
+34,Sitapur,SI
+34,Sonbhadra,SO
+34,Sultanpur,SU
+34,Unnao,UN
+34,Varanasi,VA
+35,Almora,AL
+35,Bageshwar,BA
+35,Chamoli,CL
+35,Champawat,CP
+35,Dehradun,DD
+35,Haridwar,HA
+35,Nainital,NA
+35,Pauri Garhwal,PG
+35,Pithoragarh,PI
+35,Rudraprayag,RP
+35,Tehri Garhwal,TG
+35,Udham Singh Nagar,US
+35,Uttarkashi,UT
+36,Bankura,BN
+36,Birbhum,BR
+36,Burdwan (Bardhaman),BI
+36,Cooch Behar,KB
+36,Dakshin Dinajpur (South Dinajpur),DD
+36,Darjeeling,DA
+36,Hooghly,HG
+36,Howrah,HR
+36,Jalpaiguri,JA
+36,Kolkata,KO
+36,Malda,MA
+36,Murshidabad,MSD
+36,Nadia,NA
+36,North 24 Parganas,PN
+36,Paschim Medinipur (West Medinipur),PM
+36,Purba Medinipur (East Medinipur),PR
+36,Purulia,PU
+36,South 24 Parganas,PS
+36,Uttar Dinajpur (North Dinajpur),UD

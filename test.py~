@@ -1,0 +1,30 @@
+from mongoengine import*
+from ginger import coord
+
+
+maxlat=17.6078088
+maxlon=78.6561694
+minlat=17.2168886
+minlon=78.1599217
+
+def diff():
+    global new_lats, new_lons
+    new_lats=[]
+    new_lons=[]
+    x=float(maxlat)
+    y=float(maxlon)
+    min_x=float(minlat)
+    min_y=float(minlon)
+    while(x>=min_x):
+	x-=0.001
+	new_lats.append(x)
+	
+    while (y>=min_y):
+	y-=0.001
+	new_lons.append(y)
+     
+    return new_lats,new_lons 
+diff()
+
+print new_lats,new_lons
+
