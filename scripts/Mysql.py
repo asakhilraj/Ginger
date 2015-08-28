@@ -157,7 +157,7 @@ HOSPITAL['hospital_address']=(
 ") ENGINE=InnoDB")
 
 
-HOSPITAL['hospital_pincode']=(
+HOSPITAL['hospital_location']=(
 "CREATE TABLE `hospital_location`("
 "`id` int(11) NOT NULL AUTO_INCREMENT,"
 "`hospital_address_id` int (11) NOT NULL,"
@@ -243,7 +243,7 @@ DIAGNOSTIC['diagnostic_address']=(
 "REFERENCES `diagnostic_center`(`id`) ON DELETE CASCADE"
 ") ENGINE=InnoDB")
 
-DIAGNOSTIC['diagnostic_pincode']=(
+DIAGNOSTIC['diagnostic_location']=(
 "CREATE TABLE `diagnostic_location`("
 "`id` int(11) NOT NULL AUTO_INCREMENT,"
 "`diagnostic_address_id` int (11) NOT NULL,"
@@ -299,7 +299,7 @@ PHARMACY['pharmacy_address']=(
 "REFERENCES `pharmacy`(`id`) ON DELETE CASCADE"
 ") ENGINE=InnoDB")
 
-PHARMACY['pharmacy_pincode']=(
+PHARMACY['pharmacy_location']=(
 "CREATE TABLE `pharmacy_location`("
 "`id` int(11) NOT NULL AUTO_INCREMENT,"
 "`pharmacy_address_id` int (11) NOT NULL,"
@@ -325,13 +325,31 @@ INSURANCE['life_insurance_corporation']=(
 "`id` int(11) NOT NULL AUTO_INCREMENT,"
 "`insurances_id` int(11) NOT NULL,"
 "`hospital_id` int(11) NOT NULL,"
+"`ppn_id` int(11) NOT NULL,"
 "`creation_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,"
 "`modification_time` TIMESTAMP,"
 "PRIMARY KEY (`id`),"
 "CONSTRAINT `life_insurance_network` FOREIGN KEY(`insurances_id`)"
 "REFERENCES `insurance`(`id`) ON DELETE CASCADE,"
 "CONSTRAINT `life_insurance_network_hospital` FOREIGN KEY(`hospital_id`)"
-"REFERENCES `hospital`(`id`) ON DELETE CASCADE"
+"REFERENCES `hospital`(`id`) ON DELETE CASCADE,"
+"CONSTRAINT `life_insurance_ppn` FOREIGN KEY(`ppn_id`)"
+"REFERENCES `life_insurance_corporation_ppn`(`id`) ON DELETE CASCADE"
+") ENGINE=InnoDB")
+
+INSURANCE['life_insurance_corporation_ppn']=(
+"CREATE TABLE `life_insurance_corporation_ppn`("
+"`id` int(11) NOT NULL AUTO_INCREMENT,"
+"`hospital_name` varchar (100),"
+"`city` varchar(100),"
+"`address` varchar(500),"
+"`pincode` int(50) NOT NULL,"
+"`poc_name` varchar(50),"
+"`contact_info` varchar(100),"
+"`network_status` varchar(50),"
+"`creation_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,"
+"`modification_time` TIMESTAMP,"
+"PRIMARY KEY (`id`)"
 ") ENGINE=InnoDB")
 
 INSURANCE['sbi_life_insurance']=(
@@ -339,16 +357,64 @@ INSURANCE['sbi_life_insurance']=(
 "`id` int(11) NOT NULL AUTO_INCREMENT,"
 "`insurances_id` int(11) NOT NULL,"
 "`hospital_id` int(11) NOT NULL,"
+"`ppn_id` int(11) NOT NULL,"
 "`creation_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,"
 "`modification_time` TIMESTAMP,"
 "PRIMARY KEY (`id`),"
 "CONSTRAINT `sbi_life_insurance_network` FOREIGN KEY(`insurances_id`)"
 "REFERENCES `insurance`(`id`) ON DELETE CASCADE,"
 "CONSTRAINT `sbi_life_insurance_network_hospital` FOREIGN KEY(`hospital_id`)"
-"REFERENCES `hospital`(`id`) ON DELETE CASCADE"
+"REFERENCES `hospital`(`id`) ON DELETE CASCADE,"
+"CONSTRAINT `sbi_life_insurance_ppn` FOREIGN KEY(`ppn_id`)"
+"REFERENCES `sbi_life_insurance_ppn`(`id`) ON DELETE CASCADE"
 ") ENGINE=InnoDB")
 
+INSURANCE['sbi_life_insurance_ppn']=(
+"CREATE TABLE `sbi_life_insurance_ppn`("
+"`id` int(11) NOT NULL AUTO_INCREMENT,"
+"`hospital_name` varchar (100),"
+"`city` varchar(100),"
+"`address` varchar(500),"
+"`pincode` int(50) NOT NULL,"
+"`poc_name` varchar(50),"
+"`contact_info` varchar(100),"
+"`network_status` varchar(50),"
+"`creation_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,"
+"`modification_time` TIMESTAMP,"
+"PRIMARY KEY (`id`)"
+") ENGINE=InnoDB")
 
+INSURANCE['bajaj_allianz_insurance']=(
+"CREATE TABLE `bajaj_allianz_insurance`("
+"`id` int(11) NOT NULL AUTO_INCREMENT,"
+"`insurances_id` int(11) NOT NULL,"
+"`hospital_id` int(11) NOT NULL,"
+"`ppn_id` int(11) NOT NULL,"
+"`creation_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,"
+"`modification_time` TIMESTAMP,"
+"PRIMARY KEY (`id`),"
+"CONSTRAINT `bajaj_allianz_insurance_network` FOREIGN KEY(`insurances_id`)"
+"REFERENCES `insurance`(`id`) ON DELETE CASCADE,"
+"CONSTRAINT `bajaj_allianz_insurance_network_hospital` FOREIGN KEY(`hospital_id`)"
+"REFERENCES `hospital`(`id`) ON DELETE CASCADE,"
+"CONSTRAINT `bajaj_allianz_insurance_ppn` FOREIGN KEY(`ppn_id`)"
+"REFERENCES `bajaj_allianz_insurance_ppn`(`id`) ON DELETE CASCADE"
+") ENGINE=InnoDB")
+
+INSURANCE['bajaj_allianz_insurance_ppn']=(
+"CREATE TABLE `bajaj_allianz_insurance_ppn`("
+"`id` int(11) NOT NULL AUTO_INCREMENT,"
+"`hospital_name` varchar (100),"
+"`city` varchar(100),"
+"`address` varchar(500),"
+"`pincode` int(50) NOT NULL,"
+"`poc_name` varchar(50),"
+"`contact_info` varchar(100),"
+"`network_status` varchar(50),"
+"`creation_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,"
+"`modification_time` TIMESTAMP,"
+"PRIMARY KEY (`id`)"
+") ENGINE=InnoDB")
 
 
 
